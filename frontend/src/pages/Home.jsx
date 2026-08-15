@@ -331,7 +331,7 @@ export default function Home() {
                   Browse Catalog <span aria-hidden="true">→</span>
                 </a>
                 <a
-                  href="https://github.com"
+                  href="https://github.com/arnavdev01-coder/MC_Explorer"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 group"

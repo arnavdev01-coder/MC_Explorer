@@ -118,7 +118,7 @@ export default function App() {
               )}
             </Link>
             <a
-              href="https://github.com"
+              href="https://github.com/arnavdev01-coder/MC_Explorer"
               target="_blank"
               rel="noopener noreferrer"
               className="site-nav-link font-mono text-xs uppercase tracking-[0.15em]"
@@ -194,7 +194,7 @@ export default function App() {
               )}
             </Link>
             <a
-              href="https://github.com"
+              href="https://github.com/arnavdev01-coder/MC_Explorer"
               target="_blank"
               rel="noopener noreferrer"
               className="site-nav-link font-mono text-xs uppercase tracking-[0.15em]"
