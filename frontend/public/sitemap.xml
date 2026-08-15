@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Static routes only. Run `node scripts/generate-sitemap.mjs` from the repo
+  root (with the backend running) to regenerate this file with a <url> entry
+  for every /mc/:slug chip page — see that script for details. Do that as
+  part of every deploy so new chips show up here automatically.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://your-domain.com/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://your-domain.com/compare</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://your-domain.com/changelog</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+</urlset>

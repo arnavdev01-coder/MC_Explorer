@@ -1,0 +1,7 @@
+# MC Explorer — public microcontroller reference catalog.
+# Everything here is public data; nothing to disallow.
+User-agent: *
+Allow: /
+
+# Update this to your deployed domain once live.
+Sitemap: https://your-domain.com/sitemap.xml
