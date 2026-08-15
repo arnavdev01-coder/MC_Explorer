@@ -1,4 +1,9 @@
-const BASE = "/api";
+// In dev, Vite proxies "/api" to localhost:5000 (see vite.config.js).
+// In production, set VITE_API_URL in Vercel's project settings to your
+// deployed backend's URL, e.g. https://mc-explorer-backend.onrender.com
+const BASE = import.meta.env.VITE_API_URL
+  ? `${import.meta.env.VITE_API_URL}/api`
+  : "/api";
 
 export async function fetchMicrocontrollers(params = {}) {
   const qs = new URLSearchParams(params).toString();
